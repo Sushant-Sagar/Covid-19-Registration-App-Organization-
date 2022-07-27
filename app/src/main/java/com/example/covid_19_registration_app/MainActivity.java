@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btnStudent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("Error","On Click Pressed");
                 Toast.makeText(getApplicationContext(), "Button Student Clicked", Toast.LENGTH_SHORT).show();
                 Intent loadStudentActivity = new Intent(getApplicationContext(), activity_student.class);
                 startActivity(loadStudentActivity);
