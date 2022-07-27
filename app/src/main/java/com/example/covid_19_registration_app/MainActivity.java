@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         btnStudent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("Error","On Click Pressed");
                 Toast.makeText(getApplicationContext(), "Button Student Clicked", Toast.LENGTH_SHORT).show();
                 Intent loadStudentActivity = new Intent(getApplicationContext(), activity_student.class);
                 startActivity(loadStudentActivity);
