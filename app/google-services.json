@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709354510978",
+    "project_id": "covid-19-registration-ap-cc213",
+    "storage_bucket": "covid-19-registration-ap-cc213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709354510978:android:e6036a9ab496a259a3329b",
+        "android_client_info": {
+          "package_name": "com.example.covid_19_registration_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709354510978-pbfhlgv579rgos1tv52jmrohphfrgpua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD83SlJTBg7SBTQ5BJlz6MoECIyWZVnBb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709354510978-pbfhlgv579rgos1tv52jmrohphfrgpua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
